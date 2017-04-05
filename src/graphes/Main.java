@@ -10,6 +10,11 @@ public class Main
 
 	public static Window window;
 
+	/** Calcul principal. Pour chaque version de Dijkstra, calcule le plus court chemin entre deux noeuds aléatoires.
+	 * 
+	 * @param noeuds - Nombre de noeuds par graphe.
+	 * @param arcs - Nombre d'arcs par graphe.
+	 * @param graphes - Nombre de graphes. */
 	public static void calcul(int noeuds, int arcs, int graphes)
 	{/* Graphe g = Graphe.creerGraphe("resources/grapheTest.csv"); window.addText(g); DijkstraV1 d = g.dijkstraV1(); afficherChemin(d.plusCourtChemin(4, 1)); window.addText("Calculé en " + d.duree().toMillis() + " millisecondes."); window.addText();
 	 * 
