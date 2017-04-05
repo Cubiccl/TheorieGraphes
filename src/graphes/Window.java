@@ -67,7 +67,7 @@ public class Window extends JFrame implements ActionListener
 
 	private void doAlgorithm()
 	{
-		Main.calcul(Integer.parseInt(this.entryGraphe.getText()), Integer.parseInt(this.entryArcs.getText()), Integer.parseInt(this.entrySommets.getText()));
+		Main.calcul(Integer.parseInt(this.entrySommets.getText()), Integer.parseInt(this.entryArcs.getText()), Integer.parseInt(this.entryGraphe.getText()));
 	}
 
 }
